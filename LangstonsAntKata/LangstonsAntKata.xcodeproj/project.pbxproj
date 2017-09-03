@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4254401F204064004ED00E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42543F1F204064004ED00E /* AppDelegate.swift */; };
+		4C4254421F204064004ED00E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4254411F204064004ED00E /* ViewController.swift */; };
+		4C4254451F204064004ED00E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4254431F204064004ED00E /* Main.storyboard */; };
+		4C4254471F204064004ED00E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4254461F204064004ED00E /* Assets.xcassets */; };
+		4C42544A1F204064004ED00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4254481F204064004ED00E /* LaunchScreen.storyboard */; };
+		4C4254551F204064004ED00E /* LangstonsAntKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4254541F204064004ED00E /* LangstonsAntKataTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4254511F204064004ED00E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4254341F204063004ED00E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C42543B1F204064004ED00E;
+			remoteInfo = LangstonsAntKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C42543C1F204064004ED00E /* LangstonsAntKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LangstonsAntKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C42543F1F204064004ED00E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4254411F204064004ED00E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C4254441F204064004ED00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4254461F204064004ED00E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4254491F204064004ED00E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C42544B1F204064004ED00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4254501F204064004ED00E /* LangstonsAntKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangstonsAntKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4254541F204064004ED00E /* LangstonsAntKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangstonsAntKataTests.swift; sourceTree = "<group>"; };
+		4C4254561F204064004ED00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4254391F204064004ED00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C42544D1F204064004ED00E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C4254331F204063004ED00E = {
+			isa = PBXGroup;
+			children = (
+				4C42543E1F204064004ED00E /* LangstonsAntKata */,
+				4C4254531F204064004ED00E /* LangstonsAntKataTests */,
+				4C42543D1F204064004ED00E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C42543D1F204064004ED00E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C42543C1F204064004ED00E /* LangstonsAntKata.app */,
+				4C4254501F204064004ED00E /* LangstonsAntKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C42543E1F204064004ED00E /* LangstonsAntKata */ = {
+			isa = PBXGroup;
+			children = (
+				4C42543F1F204064004ED00E /* AppDelegate.swift */,
+				4C4254411F204064004ED00E /* ViewController.swift */,
+				4C4254431F204064004ED00E /* Main.storyboard */,
+				4C4254461F204064004ED00E /* Assets.xcassets */,
+				4C4254481F204064004ED00E /* LaunchScreen.storyboard */,
+				4C42544B1F204064004ED00E /* Info.plist */,
+			);
+			path = LangstonsAntKata;
+			sourceTree = "<group>";
+		};
+		4C4254531F204064004ED00E /* LangstonsAntKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4254541F204064004ED00E /* LangstonsAntKataTests.swift */,
+				4C4254561F204064004ED00E /* Info.plist */,
+			);
+			path = LangstonsAntKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C42543B1F204064004ED00E /* LangstonsAntKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4254591F204064004ED00E /* Build configuration list for PBXNativeTarget "LangstonsAntKata" */;
+			buildPhases = (
+				4C4254381F204064004ED00E /* Sources */,
+				4C4254391F204064004ED00E /* Frameworks */,
+				4C42543A1F204064004ED00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LangstonsAntKata;
+			productName = LangstonsAntKata;
+			productReference = 4C42543C1F204064004ED00E /* LangstonsAntKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C42544F1F204064004ED00E /* LangstonsAntKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C42545C1F204064004ED00E /* Build configuration list for PBXNativeTarget "LangstonsAntKataTests" */;
+			buildPhases = (
+				4C42544C1F204064004ED00E /* Sources */,
+				4C42544D1F204064004ED00E /* Frameworks */,
+				4C42544E1F204064004ED00E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4254521F204064004ED00E /* PBXTargetDependency */,
+			);
+			name = LangstonsAntKataTests;
+			productName = LangstonsAntKataTests;
+			productReference = 4C4254501F204064004ED00E /* LangstonsAntKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4254341F204063004ED00E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = charland;
+				TargetAttributes = {
+					4C42543B1F204064004ED00E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CY96495443;
+						ProvisioningStyle = Automatic;
+					};
+					4C42544F1F204064004ED00E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CY96495443;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C42543B1F204064004ED00E;
+					};
+				};
+			};
+			buildConfigurationList = 4C4254371F204063004ED00E /* Build configuration list for PBXProject "LangstonsAntKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4254331F204063004ED00E;
+			productRefGroup = 4C42543D1F204064004ED00E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C42543B1F204064004ED00E /* LangstonsAntKata */,
+				4C42544F1F204064004ED00E /* LangstonsAntKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C42543A1F204064004ED00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C42544A1F204064004ED00E /* LaunchScreen.storyboard in Resources */,
+				4C4254471F204064004ED00E /* Assets.xcassets in Resources */,
+				4C4254451F204064004ED00E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C42544E1F204064004ED00E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4254381F204064004ED00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4254421F204064004ED00E /* ViewController.swift in Sources */,
+				4C4254401F204064004ED00E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C42544C1F204064004ED00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4254551F204064004ED00E /* LangstonsAntKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4254521F204064004ED00E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C42543B1F204064004ED00E /* LangstonsAntKata */;
+			targetProxy = 4C4254511F204064004ED00E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4254431F204064004ED00E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4254441F204064004ED00E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4254481F204064004ED00E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4254491F204064004ED00E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4254571F204064004ED00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C4254581F204064004ED00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C42545A1F204064004ED00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CY96495443;
+				INFOPLIST_FILE = LangstonsAntKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.LangstonsAntKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C42545B1F204064004ED00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CY96495443;
+				INFOPLIST_FILE = LangstonsAntKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.LangstonsAntKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C42545D1F204064004ED00E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CY96495443;
+				INFOPLIST_FILE = LangstonsAntKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.LangstonsAntKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LangstonsAntKata.app/LangstonsAntKata";
+			};
+			name = Debug;
+		};
+		4C42545E1F204064004ED00E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CY96495443;
+				INFOPLIST_FILE = LangstonsAntKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.charland.LangstonsAntKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LangstonsAntKata.app/LangstonsAntKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4254371F204063004ED00E /* Build configuration list for PBXProject "LangstonsAntKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4254571F204064004ED00E /* Debug */,
+				4C4254581F204064004ED00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4254591F204064004ED00E /* Build configuration list for PBXNativeTarget "LangstonsAntKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C42545A1F204064004ED00E /* Debug */,
+				4C42545B1F204064004ED00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C42545C1F204064004ED00E /* Build configuration list for PBXNativeTarget "LangstonsAntKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C42545D1F204064004ED00E /* Debug */,
+				4C42545E1F204064004ED00E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4254341F204063004ED00E /* Project object */;
+}
