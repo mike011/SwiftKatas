@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "1240"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C42540D1F2037B4004ED00E"
-               BuildableName = "FlashKata.app"
+               BlueprintIdentifier = "4C735DEC25EEFBDC00B0DB04"
+               BuildableName = "FlashKata"
                BlueprintName = "FlashKata"
                ReferencedContainer = "container:FlashKata.xcodeproj">
             </BuildableReference>
@@ -32,24 +32,13 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C4254211F2037B5004ED00E"
+               BlueprintIdentifier = "4C735DFB25EEFBED00B0DB04"
                BuildableName = "FlashKataTests.xctest"
                BlueprintName = "FlashKataTests"
                ReferencedContainer = "container:FlashKata.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C42540D1F2037B4004ED00E"
-            BuildableName = "FlashKata.app"
-            BlueprintName = "FlashKata"
-            ReferencedContainer = "container:FlashKata.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -65,14 +54,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C42540D1F2037B4004ED00E"
-            BuildableName = "FlashKata.app"
+            BlueprintIdentifier = "4C735DEC25EEFBDC00B0DB04"
+            BuildableName = "FlashKata"
             BlueprintName = "FlashKata"
             ReferencedContainer = "container:FlashKata.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -84,8 +71,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C42540D1F2037B4004ED00E"
-            BuildableName = "FlashKata.app"
+            BlueprintIdentifier = "4C735DEC25EEFBDC00B0DB04"
+            BuildableName = "FlashKata"
             BlueprintName = "FlashKata"
             ReferencedContainer = "container:FlashKata.xcodeproj">
          </BuildableReference>
