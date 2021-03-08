@@ -38,6 +38,5 @@ class FlashKataTests: XCTestCase {
         fk.playGame([FlashCard("QR", "A"), FlashCard("QW", "A")], MockUser())
         XCTAssertEqual(1, fk.rightAnswers)
         XCTAssertEqual(1, fk.wrongAnswers)
-
     }
 }

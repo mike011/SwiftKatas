@@ -6,5 +6,6 @@ Given a set of questions and answers, ask the user each question and solicit an 
 
 Steps:
 1 - Given an empty list of questions and answers, end the game immediately with a summary showing nothing right and nothing wrong.
-2 - A game with a single flash card, that the user gets right.
-3 - 
+2 - A game with a single flash card, that the user gets right. 
+3 - A game with a single flash card, that the user gets wrong.
+4 - A game with two flash cards, that the user gets one right and one wrong.
