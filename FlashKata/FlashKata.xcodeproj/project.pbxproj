@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C567DFC25F67702004543F7 /* FlashKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* FlashKata.swift */; };
+		4C567DFD25F67702004543F7 /* FlashKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* FlashKata.swift */; };
+		4C567E0125F6770D004543F7 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* FlashCard.swift */; };
+		4C567E0225F6770D004543F7 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* FlashCard.swift */; };
+		4C567E0825F67727004543F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0725F67727004543F7 /* User.swift */; };
+		4C567E0925F67727004543F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0725F67727004543F7 /* User.swift */; };
+		4C567E0D25F6773C004543F7 /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0C25F6773C004543F7 /* MockUser.swift */; };
 		4C735DF125EEFBDC00B0DB04 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C735DF025EEFBDC00B0DB04 /* main.swift */; };
 		4C735E0F25EEFC5C00B0DB04 /* FlashKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C735E0E25EEFC5C00B0DB04 /* FlashKataTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,11 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C567DFB25F67702004543F7 /* FlashKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashKata.swift; sourceTree = "<group>"; };
+		4C567E0025F6770D004543F7 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		4C567E0725F67727004543F7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4C567E0C25F6773C004543F7 /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
 		4C735DED25EEFBDC00B0DB04 /* FlashKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlashKata; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C735DF025EEFBDC00B0DB04 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4C735DFC25EEFBED00B0DB04 /* FlashKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C735E0025EEFBED00B0DB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C735E0E25EEFC5C00B0DB04 /* FlashKataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashKataTests.swift; sourceTree = "<group>"; };
+		4C735E1E25EFDF7C00B0DB04 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 		4C735DE425EEFBDC00B0DB04 = {
 			isa = PBXGroup;
 			children = (
+				4C735E1E25EFDF7C00B0DB04 /* README.md */,
 				4C735DEF25EEFBDC00B0DB04 /* FlashKata */,
 				4C735DFD25EEFBED00B0DB04 /* FlashKataTests */,
 				4C735DEE25EEFBDC00B0DB04 /* Products */,
@@ -71,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				4C735DF025EEFBDC00B0DB04 /* main.swift */,
+				4C567DFB25F67702004543F7 /* FlashKata.swift */,
+				4C567E0025F6770D004543F7 /* FlashCard.swift */,
+				4C567E0725F67727004543F7 /* User.swift */,
 			);
 			path = FlashKata;
 			sourceTree = "<group>";
@@ -80,6 +96,7 @@
 			children = (
 				4C735E0E25EEFC5C00B0DB04 /* FlashKataTests.swift */,
 				4C735E0025EEFBED00B0DB04 /* Info.plist */,
+				4C567E0C25F6773C004543F7 /* MockUser.swift */,
 			);
 			path = FlashKataTests;
 			sourceTree = "<group>";
@@ -173,7 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C567E0825F67727004543F7 /* User.swift in Sources */,
 				4C735DF125EEFBDC00B0DB04 /* main.swift in Sources */,
+				4C567E0125F6770D004543F7 /* FlashCard.swift in Sources */,
+				4C567DFC25F67702004543F7 /* FlashKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C567E0D25F6773C004543F7 /* MockUser.swift in Sources */,
+				4C567E0925F67727004543F7 /* User.swift in Sources */,
 				4C735E0F25EEFC5C00B0DB04 /* FlashKataTests.swift in Sources */,
+				4C567E0225F6770D004543F7 /* FlashCard.swift in Sources */,
+				4C567DFD25F67702004543F7 /* FlashKata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
