@@ -10,33 +10,60 @@ import XCTest
 
 class FlashKataTests: XCTestCase {
 
+    var game: FlashKata!
+    var user: User!
+
+    override func setUp() {
+        game = FlashKata()
+        user = MockUser()
+    }
+
     func testRightAndWrongShouldBeZeroIfGamePlayedWithNoCards() {
-        let fk = FlashKata()
-        fk.playGame([], MockUser())
-        XCTAssertEqual(0, fk.rightAnswers)
-        XCTAssertEqual(0, fk.wrongAnswers)
+
+        game.playGame(cards: [], user: user)
+
+        XCTAssertEqual(0, game.rightAnswers)
+        XCTAssertEqual(0, game.wrongAnswers)
     }
 
     func testRightShouldBeOneIfOneRightAnswer() {
-        let fk = FlashKata()
-        let fc = FlashCard("QR", "A")
-        fk.playGame([fc], MockUser())
-        XCTAssertEqual(1, fk.rightAnswers)
-        XCTAssertEqual(0, fk.wrongAnswers)
+        let card = FlashCard("QR", "A")
+
+        game.playGame(cards: [card], user: user)
+
+        XCTAssertEqual(1, game.rightAnswers)
+        XCTAssertEqual(0, game.wrongAnswers)
     }
 
     func testWrongShouldBeOneIfOneWrongAnswer() {
-        let fk = FlashKata()
-        let fc = FlashCard("QW", "A")
-        fk.playGame([fc], MockUser())
-        XCTAssertEqual(0, fk.rightAnswers)
-        XCTAssertEqual(1, fk.wrongAnswers)
+        let card = FlashCard("QW", "A")
+
+        game.playGame(cards: [card], user: user)
+
+        XCTAssertEqual(0, game.rightAnswers)
+        XCTAssertEqual(1, game.wrongAnswers)
     }
 
     func testCountBothRightAndWrong() {
-        let fk = FlashKata()
-        fk.playGame([FlashCard("QR", "A"), FlashCard("QW", "A")], MockUser())
-        XCTAssertEqual(1, fk.rightAnswers)
-        XCTAssertEqual(1, fk.wrongAnswers)
+        var cards = [FlashCard]()
+        cards.append(FlashCard("QR", "A"))
+        cards.append(FlashCard("QW", "A"))
+
+        game.playGame(cards: cards, user: user)
+
+        XCTAssertEqual(1, game.rightAnswers)
+        XCTAssertEqual(1, game.wrongAnswers)
+    }
+
+    func testCountThreeNewQuestionsTwoRightOneWrong() {
+        var cards = [FlashCard]()
+        cards.append(FlashCard("Q1", "1"))
+        cards.append(FlashCard("Q2", "2"))
+        cards.append(FlashCard("Q3", "wrong"))
+
+        game.playGame(cards: cards, user: user)
+
+        XCTAssertEqual(2, game.rightAnswers)
+        XCTAssertEqual(1, game.wrongAnswers)
     }
 }

@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				4C735DF025EEFBDC00B0DB04 /* main.swift */,
-				4C567DFB25F67702004543F7 /* FlashKata.swift */,
 				4C567E0025F6770D004543F7 /* FlashCard.swift */,
+				4C567DFB25F67702004543F7 /* FlashKata.swift */,
 				4C567E0725F67727004543F7 /* User.swift */,
 			);
 			path = FlashKata;

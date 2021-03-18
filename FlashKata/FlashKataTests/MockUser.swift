@@ -13,7 +13,7 @@ class MockUser : User {
             return "A"
         } else {
             let index = question.index(question.startIndex, offsetBy: 1)
-            return question.substring(from: index)
+            return String(question[index...])
         }
     }
 }

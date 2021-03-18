@@ -12,9 +12,11 @@ class FlashKata {
     var rightAnswers = 0
     var wrongAnswers = 0
 
-    func playGame(_ cards : [FlashCard], _ user : User) {
+    func playGame(cards: [FlashCard], user: User) {
         for card in cards {
-            if user.answerQuestion(card.question) == "A" {
+            let question = card.question
+            let answer = card.answer
+            if user.answerQuestion(question) == answer {
                 rightAnswers += 1
             } else {
                 wrongAnswers += 1

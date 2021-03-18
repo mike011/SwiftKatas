@@ -7,7 +7,7 @@
 
 import Foundation
 
-class FlashCard {
+struct FlashCard {
 
     let question : String
     let answer : String
