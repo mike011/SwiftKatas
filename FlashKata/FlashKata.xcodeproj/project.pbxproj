@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C567DFC25F67702004543F7 /* FlashKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* FlashKata.swift */; };
-		4C567DFD25F67702004543F7 /* FlashKata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* FlashKata.swift */; };
-		4C567E0125F6770D004543F7 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* FlashCard.swift */; };
-		4C567E0225F6770D004543F7 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* FlashCard.swift */; };
+		4C567DFC25F67702004543F7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* Game.swift */; };
+		4C567DFD25F67702004543F7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567DFB25F67702004543F7 /* Game.swift */; };
+		4C567E0125F6770D004543F7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* Card.swift */; };
+		4C567E0225F6770D004543F7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0025F6770D004543F7 /* Card.swift */; };
 		4C567E0825F67727004543F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0725F67727004543F7 /* User.swift */; };
 		4C567E0925F67727004543F7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0725F67727004543F7 /* User.swift */; };
 		4C567E0D25F6773C004543F7 /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C567E0C25F6773C004543F7 /* MockUser.swift */; };
@@ -31,8 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4C567DFB25F67702004543F7 /* FlashKata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashKata.swift; sourceTree = "<group>"; };
-		4C567E0025F6770D004543F7 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		4C567DFB25F67702004543F7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4C567E0025F6770D004543F7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4C567E0725F67727004543F7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4C567E0C25F6773C004543F7 /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
 		4C735DED25EEFBDC00B0DB04 /* FlashKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlashKata; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				4C735DF025EEFBDC00B0DB04 /* main.swift */,
-				4C567E0025F6770D004543F7 /* FlashCard.swift */,
-				4C567DFB25F67702004543F7 /* FlashKata.swift */,
+				4C567E0025F6770D004543F7 /* Card.swift */,
+				4C567DFB25F67702004543F7 /* Game.swift */,
 				4C567E0725F67727004543F7 /* User.swift */,
 			);
 			path = FlashKata;
@@ -192,8 +192,8 @@
 			files = (
 				4C567E0825F67727004543F7 /* User.swift in Sources */,
 				4C735DF125EEFBDC00B0DB04 /* main.swift in Sources */,
-				4C567E0125F6770D004543F7 /* FlashCard.swift in Sources */,
-				4C567DFC25F67702004543F7 /* FlashKata.swift in Sources */,
+				4C567E0125F6770D004543F7 /* Card.swift in Sources */,
+				4C567DFC25F67702004543F7 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +204,8 @@
 				4C567E0D25F6773C004543F7 /* MockUser.swift in Sources */,
 				4C567E0925F67727004543F7 /* User.swift in Sources */,
 				4C735E0F25EEFC5C00B0DB04 /* FlashKataTests.swift in Sources */,
-				4C567E0225F6770D004543F7 /* FlashCard.swift in Sources */,
-				4C567DFD25F67702004543F7 /* FlashKata.swift in Sources */,
+				4C567E0225F6770D004543F7 /* Card.swift in Sources */,
+				4C567DFD25F67702004543F7 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

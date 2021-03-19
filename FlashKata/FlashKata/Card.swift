@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Card.swift
 //  FlashKata
 //
 //  Created by Michael Charland on 2021-03-08.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FlashCard {
+struct Card {
 
     let question : String
     let answer : String

@@ -10,11 +10,11 @@ import XCTest
 
 class FlashKataTests: XCTestCase {
 
-    var game: FlashKata!
+    var game: Game!
     var user: User!
 
     override func setUp() {
-        game = FlashKata()
+        game = Game()
         user = MockUser()
     }
 
@@ -27,7 +27,7 @@ class FlashKataTests: XCTestCase {
     }
 
     func testRightShouldBeOneIfOneRightAnswer() {
-        let card = FlashCard("QR", "A")
+        let card = Card("QR", "A")
 
         game.playGame(cards: [card], user: user)
 
@@ -36,7 +36,7 @@ class FlashKataTests: XCTestCase {
     }
 
     func testWrongShouldBeOneIfOneWrongAnswer() {
-        let card = FlashCard("QW", "A")
+        let card = Card("QW", "A")
 
         game.playGame(cards: [card], user: user)
 
@@ -45,9 +45,9 @@ class FlashKataTests: XCTestCase {
     }
 
     func testCountBothRightAndWrong() {
-        var cards = [FlashCard]()
-        cards.append(FlashCard("QR", "A"))
-        cards.append(FlashCard("QW", "A"))
+        var cards = [Card]()
+        cards.append(Card("QR", "A"))
+        cards.append(Card("QW", "A"))
 
         game.playGame(cards: cards, user: user)
 
@@ -56,10 +56,10 @@ class FlashKataTests: XCTestCase {
     }
 
     func testCountThreeNewQuestionsTwoRightOneWrong() {
-        var cards = [FlashCard]()
-        cards.append(FlashCard("Q1", "1"))
-        cards.append(FlashCard("Q2", "2"))
-        cards.append(FlashCard("Q3", "wrong"))
+        var cards = [Card]()
+        cards.append(Card("Q1", "1"))
+        cards.append(Card("Q2", "2"))
+        cards.append(Card("Q3", "wrong"))
 
         game.playGame(cards: cards, user: user)
 
