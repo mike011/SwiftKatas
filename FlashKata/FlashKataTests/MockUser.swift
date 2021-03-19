@@ -7,8 +7,8 @@
 
 import Foundation
 
-class MockUser : User {
-    func answerQuestion(_ question : String) -> String {
+class MockUser: User {
+    func answer(question: String) -> String {
         if question == "QR" {
             return "A"
         } else {

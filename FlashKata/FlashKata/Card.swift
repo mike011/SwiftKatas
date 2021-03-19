@@ -9,10 +9,9 @@ import Foundation
 
 struct Card {
 
-    let question : String
-    let answer : String
-
-    init(_ q : String, _ a : String) {
+    let question: String
+    let answer: String
+    init(q: String, a: String) {
         question = q
         answer  = a
     }

@@ -6,5 +6,5 @@
 //
 
 protocol User {
-    func answerQuestion(_ question: String) -> String
+    func answer(question: String) -> String
 }

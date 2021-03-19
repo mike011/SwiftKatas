@@ -20,25 +20,25 @@ class FlashKataTests: XCTestCase {
 
     func testRightAndWrongShouldBeZeroIfGamePlayedWithNoCards() {
 
-        game.playGame(cards: [], user: user)
+        game.play(cards: [], user: user)
 
         XCTAssertEqual(0, game.rightAnswers)
         XCTAssertEqual(0, game.wrongAnswers)
     }
 
     func testRightShouldBeOneIfOneRightAnswer() {
-        let card = Card("QR", "A")
+        let card = Card(q: "QR", a: "A")
 
-        game.playGame(cards: [card], user: user)
+        game.play(cards: [card], user: user)
 
         XCTAssertEqual(1, game.rightAnswers)
         XCTAssertEqual(0, game.wrongAnswers)
     }
 
     func testWrongShouldBeOneIfOneWrongAnswer() {
-        let card = Card("QW", "A")
+        let card = Card(q: "QW", a: "A")
 
-        game.playGame(cards: [card], user: user)
+        game.play(cards: [card], user: user)
 
         XCTAssertEqual(0, game.rightAnswers)
         XCTAssertEqual(1, game.wrongAnswers)
@@ -46,10 +46,10 @@ class FlashKataTests: XCTestCase {
 
     func testCountBothRightAndWrong() {
         var cards = [Card]()
-        cards.append(Card("QR", "A"))
-        cards.append(Card("QW", "A"))
+        cards.append(Card(q: "QR", a: "A"))
+        cards.append(Card(q: "QW", a: "A"))
 
-        game.playGame(cards: cards, user: user)
+        game.play(cards: cards, user: user)
 
         XCTAssertEqual(1, game.rightAnswers)
         XCTAssertEqual(1, game.wrongAnswers)
@@ -57,11 +57,11 @@ class FlashKataTests: XCTestCase {
 
     func testCountThreeNewQuestionsTwoRightOneWrong() {
         var cards = [Card]()
-        cards.append(Card("Q1", "1"))
-        cards.append(Card("Q2", "2"))
-        cards.append(Card("Q3", "wrong"))
+        cards.append(Card(q: "Q1", a: "1"))
+        cards.append(Card(q: "Q2", a: "2"))
+        cards.append(Card(q: "Q3", a: "wrong"))
 
-        game.playGame(cards: cards, user: user)
+        game.play(cards: cards, user: user)
 
         XCTAssertEqual(2, game.rightAnswers)
         XCTAssertEqual(1, game.wrongAnswers)
